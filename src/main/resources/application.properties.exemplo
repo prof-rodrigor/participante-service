@@ -2,5 +2,5 @@
 mongodb.connectionString=
 
 porta.servidor=8001
-
+servico.ping.host=http://localhost:8081
 servico.nome="participantes - exemplo"
