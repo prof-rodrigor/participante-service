@@ -69,7 +69,7 @@ public class PingController {
 
     // /v1/ping
     public void ping(Context ctx) {
-        String serviceName = ctx.appData(Keys.USUARIO_SERVICE.key()).getClass().getSimpleName();
+        String serviceName = ctx.appData(Keys.SERVICO_NOME.key());
         ctx.json(Map.of("servico.nome", serviceName));
     }
 }
